@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+
+  rabbitmq:
+    image: rabbitmq:3.10.23-management
+    container_name: rabbitmq3-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 30s
+      timeout: 10s
+      retries: 5
+  db:
+    image: postgres
+    ports:
+      - "5432:5432"
+    hostname: pghost
+    environment:
+      POSTGRES_DB: "parameters"
+      POSTGRES_USER: "user_name"
+      POSTGRES_PASSWORD: "user_password"
+    volumes:
+        - db:/var/lib/postgresql/data
+
+  mock_producer:
+    build: extraction_worker
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    environment:
+      POSTGRES_HOST: "db"
+      POSTGRES_DB: "parameters"
+      POSTGRES_USER: "user_name"
+      POSTGRES_PASSWORD: "user_password"
+      POSTGRES_PORT: "5432"
+      RABBITMQ_HOST: "rabbitmq"
+volumes:
+  db:
+    driver: local

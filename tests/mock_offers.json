@@ -1,0 +1,709 @@
+{
+    "offers": [
+      {
+        "id": "917d18b1-0433-5fe4-99e5-ed92f7050b87",
+        "version": 1696840352,
+        "sellerOfferId": "OS-MARINAP-00",
+        "legacy": {
+          "platformId": "heu",
+          "countryCode": "CZ",
+          "platformSellerId": "88034",
+          "platformOfferId": "5159373270",
+          "platformProductId": "963281243",
+          "isOversizeDelivery": null,
+          "isDeliveryFeeByQuantity": false,
+          "unitWeightGram": null,
+          "isFreeMarketplaceDelivery": null
+        },
+        "shopId": "5ccd36b7-8d92-5929-be5d-007c9a8936c3",
+        "groupId": "",
+        "name": "GTV Zahradní svítidlo MARINA-P E27 max. 20W IP54 sloupek černá - OS-MARINAP-00",
+        "url": "https://www.rozni.cz/marina-p-zahradni-svitidlo-e27-max--20w-ip54-sloupek-cerna/?utm_campaign=Heureka&utm_medium=product&utm_source=heureka.cz&utm_term=OS-MARINAP-00",
+        "description": "Svítidlo svým designem dokonale zapadne do atmosféry zahrádek v restauracích a tavernách, které zdobí a vyzařuje příjemné světlo. V krytu otočeném polykarbonátovými „skly“ se nachází objímka E27. Jako zdroj světla je nejlepší zvolit vláknovou žárovku s příkonem nejvýše 20 W. Marina se bude skvěle hodit do míst stylizovaných jako přímořské taverny a restaurace s retro atmosférou, kde jim dodá idylický nádech.",
+        "medias": [
+          {
+            "type": "image",
+            "url": "https://im9.cz/iRft/812/94/3263494812.jpg",
+            "isMain": true
+          }
+        ],
+        "prices": [
+          {
+            "type": "regular",
+            "amount": "400.0",
+            "currencyCode": "CZK",
+            "vat": "21.0"
+          }
+        ],
+        "tags": null,
+        "attributes": [
+          {
+            "name": "Barva",
+            "value": "černá",
+            "unit": ""
+          },
+          {
+            "name": "Délka",
+            "value": "171 mm",
+            "unit": ""
+          },
+          {
+            "name": "Hmotnost",
+            "value": "0,75kg",
+            "unit": ""
+          },
+          {
+            "name": "Krytí (IP)",
+            "value": "IP54",
+            "unit": ""
+          },
+          {
+            "name": "Mechanická odolnost",
+            "value": "IK06",
+            "unit": ""
+          },
+          {
+            "name": "Napájení",
+            "value": "220-240V/50-60Hz",
+            "unit": ""
+          },
+          {
+            "name": "Patice",
+            "value": "E27",
+            "unit": ""
+          },
+          {
+            "name": "Počet žárovek",
+            "value": "1",
+            "unit": ""
+          },
+          {
+            "name": "Příkon",
+            "value": "40W",
+            "unit": ""
+          },
+          {
+            "name": "Šířka",
+            "value": "167 mm mm",
+            "unit": ""
+          },
+          {
+            "name": "Výška",
+            "value": "567 mm",
+            "unit": ""
+          },
+          {
+            "name": "Záruka",
+            "value": "2 roky",
+            "unit": ""
+          }
+        ],
+        "categoryText": "Dům a zahrada | Zahrada | Zahradní lampy",
+        "manufacturer": "GTV",
+        "brand": "",
+        "productNumber": "",
+        "ean": "5902801205798",
+        "isbn": "5902801205798",
+        "maxClickPrice": {
+          "type": "regular",
+          "amount": "8.61",
+          "currencyCode": "CZK",
+          "vat": "21.0"
+        },
+        "deliveries": [
+          {
+            "platformDeliveryId": "41268",
+            "name": "PPL",
+            "price": {
+              "type": "regular",
+              "amount": "150.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "195.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "100937",
+            "name": "ZASILKOVNA",
+            "price": {
+              "type": "regular",
+              "amount": "79.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "124.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "149032",
+            "name": "PPL_PARCELSHOP",
+            "price": {
+              "type": "regular",
+              "amount": "89.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "134.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          }
+        ],
+        "accessories": null,
+        "extraFee": null,
+        "gifts": null,
+        "coupons": null,
+        "pickupPoints": null,
+        "deliveryTimeMin": 0,
+        "deliveryTimeMax": 0,
+        "isDisabledInMarketplace": false
+      },
+      {
+        "id": "09516f5e-9dc0-56fb-9989-eb81d44c82c7",
+        "version": 1696840352,
+        "sellerOfferId": "0550_8980433",
+        "legacy": {
+          "platformId": "heu",
+          "countryCode": "CZ",
+          "platformSellerId": "4948",
+          "platformOfferId": "3119265371",
+          "platformProductId": "636529065",
+          "isOversizeDelivery": null,
+          "isDeliveryFeeByQuantity": false,
+          "unitWeightGram": null,
+          "isFreeMarketplaceDelivery": null
+        },
+        "shopId": "99fb3a89-b291-535b-a004-bef417902b47",
+        "groupId": "",
+        "name": "Zdravá lahev Hubice na Zdravou lahev Barva: červená",
+        "url": "https://www.e-prvnacek.cz/skolni-doplnky/hubice-na-zdravou-lahev-varianta/?variantId=40348",
+        "description": "Alternativa pro zátku. Hubici ocení především sportovci. Usnadňuje pití v akčních momentech.",
+        "medias": [
+          {
+            "type": "image",
+            "url": "https://im9.cz/iR/importprodukt-orig/789/789a6c0281eea413bf78d9334a7672af.jpg",
+            "isMain": true
+          }
+        ],
+        "prices": [
+          {
+            "type": "regular",
+            "amount": "28.0",
+            "currencyCode": "CZK",
+            "vat": "21.0"
+          }
+        ],
+        "tags": null,
+        "attributes": [
+          {
+            "name": "Barva",
+            "value": "červená",
+            "unit": ""
+          }
+        ],
+        "categoryText": "Sport | Cyklistika | Košíky na lahve",
+        "manufacturer": "Zdravá lahev",
+        "brand": "",
+        "productNumber": "",
+        "ean": "8595573601263",
+        "isbn": "8595573601263",
+        "maxClickPrice": null,
+        "deliveries": [
+          {
+            "platformDeliveryId": "11483",
+            "name": "PPL",
+            "price": {
+              "type": "regular",
+              "amount": "99.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": null
+          },
+          {
+            "platformDeliveryId": "83271",
+            "name": "ZASILKOVNA",
+            "price": {
+              "type": "regular",
+              "amount": "75.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": null
+          },
+          {
+            "platformDeliveryId": "142769",
+            "name": "PPL_PARCELSHOP",
+            "price": {
+              "type": "regular",
+              "amount": "69.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": null
+          }
+        ],
+        "accessories": [
+          "Zdravá lahev 0,5 l - Záchranáři",
+          "Zdravá lahev 0,5 l - Rebelka",
+          "Zdravá lahev 0,5 l - Dinosauři",
+          "Zdravá lahev 0,5 l - Méďa a Tučňák",
+          "Zdravá lahev 0,5 l - Káva",
+          "Zdravá lahev 0,7 l - limitovaná edice, Krakonoš",
+          "Zdravá lahev 0,5 l - Mořský svět",
+          "Zdravá lahev 0,7 l - Cestovatelská",
+          "Zdravá lahev 0,7 l - oranžová",
+          "Zdravá lahev 0,7 l - zelená",
+          "ZDRAVÁ LAHEV 0,5 L - MOTIV FOTBAL",
+          "ZDRAVÁ LAHEV BIKE 2K19 0,7 L - RŮŽOVÁ",
+          "Zdravá lahev 0,5 l - Čarodějka",
+          "ZDRAVÁ LAHEV 0,7 L - PANDA",
+          "ZDRAVÁ LAHEV 0,7 L - BĚLOUŠ",
+          "ZDRAVÁ LAHEV 1,0 L - ZEBRA",
+          "ZDRAVÁ LAHEV 0,5 L - LESNÍ ZVÍŘÁTKA",
+          "ZDRAVÁ LAHEV 0,5 L - MOTÝLI",
+          "ZDRAVÁ LAHEV 0,7 L - PAŘÍŽ",
+          "ZDRAVÁ LAHEV 0,7 L - TRAIL",
+          "ZDRAVÁ LAHEV 0,7 L - T-REX",
+          "ZDRAVÁ LAHEV 0,7 L - START",
+          "ZDRAVÁ LAHEV 0,7 L FRESH - RŮŽOVÁ",
+          "ZDRAVÁ LAHEV 0,7 L FRESH - ŠEDOMODRÁ"
+        ],
+        "extraFee": null,
+        "gifts": null,
+        "coupons": null,
+        "pickupPoints": null,
+        "deliveryTimeMin": 0,
+        "deliveryTimeMax": 0,
+        "isDisabledInMarketplace": false
+      },
+      {
+        "id": "79b33ca2-19cc-5f68-860c-20f64cc9aba7",
+        "version": 1696840352,
+        "sellerOfferId": "718108",
+        "legacy": {
+          "platformId": "heu",
+          "countryCode": "CZ",
+          "platformSellerId": "289",
+          "platformOfferId": "4870930481",
+          "platformProductId": "160068693",
+          "isOversizeDelivery": null,
+          "isDeliveryFeeByQuantity": false,
+          "unitWeightGram": null,
+          "isFreeMarketplaceDelivery": null
+        },
+        "shopId": "ce540275-d9de-5293-9252-affd901ebf22",
+        "groupId": "",
+        "name": "Bigjigs Toys Dřevěný krájecí dort s jahodami",
+        "url": "https://www.digiboss.cz/bigjigs-toys-dreveny-krajeci-dort-s-jahodami/",
+        "description": "Tento dřevěný jahodovo-piškotový dort vypadá skoro jako opravdický. Děti se mohou těšit z jeho servírování svým prátelům a rodině. Dort se šesti pestrobarevnými plátky můžete rozdělit pomocí dřevěného kráječe - ideální doplněk k našim kuchyňským a potravinářským setům. Součástí balení je dort a nůž (bez podtácku).  Hlavní vlastnosti: vyrobeno ze dřevajednotlivé dílky společně drží pomocí suchého zipu",
+        "medias": [
+          {
+            "type": "image",
+            "url": "https://im9.cz/iR/importprodukt-orig/544/54426d2dbebc1e4d3e4d982df2208f8f.jpg",
+            "isMain": true
+          }
+        ],
+        "prices": [
+          {
+            "type": "regular",
+            "amount": "497.0",
+            "currencyCode": "CZK",
+            "vat": "21.0"
+          }
+        ],
+        "tags": null,
+        "attributes": null,
+        "categoryText": "Hračky | Hračky pro holky | Dětské zboží | Příslušenství k dětským kuchyňkám",
+        "manufacturer": "Bigjigs Toys",
+        "brand": "",
+        "productNumber": "",
+        "ean": "691621023747",
+        "isbn": "691621023747",
+        "maxClickPrice": null,
+        "deliveries": [
+          {
+            "platformDeliveryId": "13643",
+            "name": "PPL",
+            "price": {
+              "type": "regular",
+              "amount": "99.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "144.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "20493",
+            "name": "CESKA_POSTA",
+            "price": {
+              "type": "regular",
+              "amount": "89.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "134.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "126579",
+            "name": "CESKA_POSTA_NAPOSTU",
+            "price": {
+              "type": "regular",
+              "amount": "99.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "144.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "128983",
+            "name": "BALIKOVNA_DEPOTAPI",
+            "price": {
+              "type": "regular",
+              "amount": "49.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "94.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "193209",
+            "name": "PPL_PARCELSHOP",
+            "price": {
+              "type": "regular",
+              "amount": "85.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "130.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          }
+        ],
+        "accessories": null,
+        "extraFee": null,
+        "gifts": null,
+        "coupons": null,
+        "pickupPoints": null,
+        "deliveryTimeMin": 3,
+        "deliveryTimeMax": 3,
+        "isDisabledInMarketplace": true
+      },
+      {
+        "id": "9f4f1a8f-ce73-506c-bd32-d929284b2ad5",
+        "version": 1696840352,
+        "sellerOfferId": "718057",
+        "legacy": {
+          "platformId": "heu",
+          "countryCode": "CZ",
+          "platformSellerId": "289",
+          "platformOfferId": "4875842584",
+          "platformProductId": "982035159",
+          "isOversizeDelivery": null,
+          "isDeliveryFeeByQuantity": false,
+          "unitWeightGram": null,
+          "isFreeMarketplaceDelivery": null
+        },
+        "shopId": "ce540275-d9de-5293-9252-affd901ebf22",
+        "groupId": "",
+        "name": "CLEMENTONI Brilliant puzzle Na! Na! Na! Surprise Parádní kočky! 104 dílků",
+        "url": "https://www.digiboss.cz/clementoni-brilliant-puzzle-na-na-na-surprise-paradni-kocky-104-dilku/",
+        "description": "Papírová skládačka, nebo-li PUZZLE je oblíbenou zábavou již mnoho let. Výborně upoutá koncentraci, procvičuje jemnou motoriku a výborně zaplní volný čas. Hodí se pro všechny věkové skupiny dětí i dospělých. Každé balení má přesný počet dílků. Čím více dílků v balení, tím je hra náročnější. Složené puzzle lze rozebrat a skládat opakovaně, nebo složený motiv podlepit a vyrobit ze skládačky dekoraci do pokoje. Puzzle od značky Clementoni – jeden z největších výrobců na světě, nabízí široký výběr kvalitních puzzle.",
+        "medias": [
+          {
+            "type": "image",
+            "url": "https://im9.cz/iR/importprodukt-orig/830/8306d39999fe4005ef21f404378e85ef.jpg",
+            "isMain": true
+          }
+        ],
+        "prices": [
+          {
+            "type": "regular",
+            "amount": "207.0",
+            "currencyCode": "CZK",
+            "vat": "21.0"
+          }
+        ],
+        "tags": null,
+        "attributes": [
+          {
+            "name": "Počet dílků",
+            "value": "104",
+            "unit": ""
+          }
+        ],
+        "categoryText": "Hračky | Dětské zboží | Puzzle",
+        "manufacturer": "Clementoni",
+        "brand": "",
+        "productNumber": "",
+        "ean": "8005125201846",
+        "isbn": "8005125201846",
+        "maxClickPrice": null,
+        "deliveries": [
+          {
+            "platformDeliveryId": "13643",
+            "name": "PPL",
+            "price": {
+              "type": "regular",
+              "amount": "99.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "144.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "20493",
+            "name": "CESKA_POSTA",
+            "price": {
+              "type": "regular",
+              "amount": "89.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "134.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "126579",
+            "name": "CESKA_POSTA_NAPOSTU",
+            "price": {
+              "type": "regular",
+              "amount": "99.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "144.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "128983",
+            "name": "BALIKOVNA_DEPOTAPI",
+            "price": {
+              "type": "regular",
+              "amount": "49.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "94.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "193209",
+            "name": "PPL_PARCELSHOP",
+            "price": {
+              "type": "regular",
+              "amount": "85.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "130.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          }
+        ],
+        "accessories": null,
+        "extraFee": null,
+        "gifts": null,
+        "coupons": null,
+        "pickupPoints": null,
+        "deliveryTimeMin": 0,
+        "deliveryTimeMax": 0,
+        "isDisabledInMarketplace": true
+      },
+      {
+        "id": "c7ec3665-7ee9-5d2e-bf69-21a1e3bb0dfa",
+        "version": 1696840352,
+        "sellerOfferId": "717880",
+        "legacy": {
+          "platformId": "heu",
+          "countryCode": "CZ",
+          "platformSellerId": "289",
+          "platformOfferId": "4875842443",
+          "platformProductId": "984120777",
+          "isOversizeDelivery": null,
+          "isDeliveryFeeByQuantity": false,
+          "unitWeightGram": null,
+          "isFreeMarketplaceDelivery": null
+        },
+        "shopId": "ce540275-d9de-5293-9252-affd901ebf22",
+        "groupId": "",
+        "name": "CLEMENTONI Puzzle Leo a Tig 3x48 dílků",
+        "url": "https://www.digiboss.cz/clementoni-puzzle-leo-a-tig-3x48-dilku/",
+        "description": "Puzzle z edice SuperColor Collection. Navrženo speciálně pro děti, puzzle pomáhá rozvíjet manuální zručnost a schopnost pozorování. Kvalita materiálů a exkluzivní technika tisku zaručují trvale krásné, živé a zářivé barvy. . \nRozměr složeného puzzle cca 32 x 22 cm",
+        "medias": [
+          {
+            "type": "image",
+            "url": "https://im9.cz/iR/importprodukt-orig/ebf/ebfea53c61d752a78a65b412e31a1786.jpg",
+            "isMain": true
+          }
+        ],
+        "prices": [
+          {
+            "type": "regular",
+            "amount": "185.0",
+            "currencyCode": "CZK",
+            "vat": "21.0"
+          }
+        ],
+        "tags": null,
+        "attributes": [
+          {
+            "name": "Počet dílků",
+            "value": "3 x 48",
+            "unit": ""
+          }
+        ],
+        "categoryText": "Hračky | Dětské zboží | Puzzle",
+        "manufacturer": "Clementoni",
+        "brand": "",
+        "productNumber": "",
+        "ean": "8005125252701",
+        "isbn": "8005125252701",
+        "maxClickPrice": null,
+        "deliveries": [
+          {
+            "platformDeliveryId": "13643",
+            "name": "PPL",
+            "price": {
+              "type": "regular",
+              "amount": "99.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "144.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "20493",
+            "name": "CESKA_POSTA",
+            "price": {
+              "type": "regular",
+              "amount": "89.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "134.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "126579",
+            "name": "CESKA_POSTA_NAPOSTU",
+            "price": {
+              "type": "regular",
+              "amount": "99.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "144.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "128983",
+            "name": "BALIKOVNA_DEPOTAPI",
+            "price": {
+              "type": "regular",
+              "amount": "49.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "94.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          },
+          {
+            "platformDeliveryId": "193209",
+            "name": "PPL_PARCELSHOP",
+            "price": {
+              "type": "regular",
+              "amount": "85.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            },
+            "priceCod": {
+              "type": "regular",
+              "amount": "130.0",
+              "currencyCode": "CZK",
+              "vat": "21.0"
+            }
+          }
+        ],
+        "accessories": null,
+        "extraFee": null,
+        "gifts": null,
+        "coupons": null,
+        "pickupPoints": null,
+        "deliveryTimeMin": 0,
+        "deliveryTimeMax": 0,
+        "isDisabledInMarketplace": true
+      }
+    ]
+  }
