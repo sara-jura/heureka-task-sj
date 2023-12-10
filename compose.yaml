@@ -25,7 +25,7 @@ services:
     volumes:
         - db:/var/lib/postgresql/data
 
-  mock_producer:
+  extraction_worker:
     build: extraction_worker
     depends_on:
       rabbitmq:
