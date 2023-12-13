@@ -1,12 +1,15 @@
+from typing import Any, Dict, List
+
 import psycopg2
 import psycopg2.extras
-from typing import List, Dict, Any
 
 
 class PostgresDAO:
     """Data access object for communication with the Postgres database"""
 
-    def __init__(self, db: str, username: str, password: str, port: str, host: str) -> None:
+    def __init__(
+        self, db: str, username: str, password: str, port: str, host: str
+    ) -> None:
         self.db = db
         self.username = username
         self.password = password
@@ -43,5 +46,5 @@ class PostgresDAO:
         return result[0]
 
     def close(self) -> None:
-        """ Closes the connection """
+        """Closes the connection"""
         self.conn.close()

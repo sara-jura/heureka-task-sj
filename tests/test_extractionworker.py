@@ -103,9 +103,9 @@ def test_validate_offer_data(mock_extraction_worker, offer_data, is_valid):
 
 
 def test_process_messages(
-        mock_rabbitmq,
-        mock_postgres_dao,
-        mock_extraction_worker,
+    mock_rabbitmq,
+    mock_postgres_dao,
+    mock_extraction_worker,
 ):
     """Test how messages produced by mock_rabbitmq using the mock_offers.json data are handled"""
     # works with the assumption that mock_offers.json contains at least some valid offers, database should be empty
@@ -128,12 +128,13 @@ def test_process_messages(
         else:
             break
     assert (
-            mock_extraction_worker.postgres_dao.count_rows(
-                "select count(*) from offer_parameters"
-            )
-            > 0
+        mock_extraction_worker.postgres_dao.count_rows(
+            "select count(*) from offer_parameters"
+        )
+        > 0
     )
     connection.close()
+
 
 def test_process_offer(mock_postgres_dao, mock_extraction_worker):
     """Test if orders are correctly added to the database"""
@@ -154,12 +155,12 @@ def test_process_offer(mock_postgres_dao, mock_extraction_worker):
         None, None, None, json.dumps(correct_offer_changed_country)
     )
     assert (
-            correct_offer["legacy"]["countryCode"]
-            != correct_offer_changed_country["legacy"]["countryCode"]
+        correct_offer["legacy"]["countryCode"]
+        != correct_offer_changed_country["legacy"]["countryCode"]
     )
     rows = mock_postgres_dao.fetch_dicts(select_query)
     assert len(rows) == 1
     assert (
-            rows[0]["legacy"]["countryCode"]
-            == correct_offer_changed_country["legacy"]["countryCode"]
+        rows[0]["legacy"]["countryCode"]
+        == correct_offer_changed_country["legacy"]["countryCode"]
     )
