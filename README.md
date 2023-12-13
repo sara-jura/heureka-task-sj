@@ -36,6 +36,7 @@ We need to extract the values under the keys `legacy` and `attributes` from the 
 * [pika](https://pypi.org/project/pika/)
 * [psycopg2-binary](https://pypi.org/project/psycopg2-binary/)
 
+The project uses [poetry](https://python-poetry.org/docs/) for dependencies handling. 
 
 ## extraction_worker:
 

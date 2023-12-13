@@ -1,7 +1,5 @@
 .PHONY:*
 
-
-
 clean:
 	docker compose rm -vf
 
@@ -17,6 +15,8 @@ build-test:
 run-test:
 	docker compose -f compose-test.yaml  up
 
+# for easier development without docker you can create a virtual environment, install poetry and use it to install
+#d dependencies and for code formatting
 initialize-venv:
 	python3 -m venv venv
 	source venv/bin/activate
