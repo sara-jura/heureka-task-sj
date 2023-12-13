@@ -21,16 +21,20 @@ We need to extract the values under the keys `legacy` and `attributes` from the 
 │   │   ├── constants.py            # keeps main constants in one place
 │   │   ├── postgres_dao.py         # contains a DAO class for postgres db interaction
 │   │   └── log.py                  # logger setup
-│   ├── Dockerfile                  # build the image for an extraction worker
 │   └── extraction_worker.py        # the main source code with woker for extraction
 ├── test/                           # the test and test data
-├── compose.yaml
+├── Dockerfile                      # build the image for an extraction worker 
+├── compose.yaml                    # runs the dev version
+├── compose-test.yaml               # runs tests within a docker container
+├── Makefile
+├── pyproject.toml
+├── poetry.lock
 └── README.md
 ```
 
 ## Dependencies
 * [pika](https://pypi.org/project/pika/)
-* [psycopg2](https://pypi.org/project/psycopg2/)
+* [psycopg2-binary](https://pypi.org/project/psycopg2-binary/)
 
 
 ## extraction_worker:
@@ -62,25 +66,29 @@ Note: If an offer with an id that's already present in the table is encountered,
 
 ### Using Docker Compose
 
-You will need Docker installed to follow the next step. To create and run the image use the following command:
+You will need Docker installed to follow the next step. To create and run the image alongside local RabbitMQ and Postgres
+use the following commands:
 
 ```bash
-docker-compose up --build
+make build
+make run
 ```
 
-Stop the run with:
+Clean up after with
 
 ```bash
-docker-compose down
+make clean
 ```
 
 ### Running the tests
 
 The `tests\` directory contains tests and test data, to test the ExtractionWorker. In order for the tests to work, you
-need to have a local instance of RabbitMQ and Postgres running. You may once again use Docker compose:
+need to have a local instance of RabbitMQ and Postgres running. The following commands will run the tests within a docker
+container:
 
 ```bash
-docker-compose up -d rabbitmq db
+make build-test
+make run-test
 ```
 
 Alternatively you can run them in your own way and change the values in the `env_dict` variable

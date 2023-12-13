@@ -2,7 +2,9 @@ import logging
 import sys
 
 
-def setup_logging(log_level: int = logging.INFO, logger_name: str = "logger") -> logging.Logger:
+def setup_logging(
+    log_level: int = logging.INFO, logger_name: str = "logger"
+) -> logging.Logger:
     """
     Create logger that logs to stdout.
     """
